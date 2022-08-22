@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sneha's portfolio</title>
+    <link rel="stylesheet" href="project.css">
+    <script src="https://kit.fontawesome.com/79dca65a94.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav class="sidemenu">
+            <!-- <img src="images.jpg" class="logo"> -->
+            <h1><span>S</span>neha</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+   
+        <div class="header-text">
+            <img src="frontcopy.png" id="myphoto" >
+            <p>Web Designer</p>
+            <h1>Hii, I am <span>Sneha</span> <br>B.tech from REC Banda</h1>
+            
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="port.jpg">
+</div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1> 
+                <p id="heyme">I am a 2nd-year B.Tech student at Rajkiya Engineering College, Banda, pursuing a major in Information Technology.
+                    I love to design different different websites. I believe I am a perfect frontend developer for now as I have made some projects as well on that. 
+                     I am a highly enthusiastic and sincere student.
+                     I have always been very curious and dedicated to learning about new programming methods.
+                     I am cognizant of the challenges during the learning process as I have hands-on experience.
+                     And apart from technical skills, 
+                    I also have perfectly balanced management and leadership skills also have content wriring skills.</p>
+                <div class="tab-titles">
+                    <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                   
+                  
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing Web/App Interface</li>
+                        <li><span>Graphic Designer</span><br>Using Adobe Photoshop & Illustrator</li>
+                        <li><span>Content Writer</span><br>Used to write quotes & motivational , fact thoughts</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="Experience">
+                    <ul>
+                        <li><span>2020-2022</span><br>Logo & Poster developed</li>
+                        <li><span>2021</span><br>Training from Internshala (Machine Learning)</li>
+                        <li><span>2020-2022</span><br>IIC TPC SDC club Member</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="Education">
+                    <ul>
+                        <li><span>2020-2024</span><br>completion of Btech from REC Banda</li>
+                        <li><span>2019</span><br>I.Sc. from St. Columba's College</li>
+                        <li><span>2017</span><br>10th from DR.R.M.L.S. School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- services -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">MyServices</h1>
+        <div class="services-list">
+            <div>
+                <!-- <i class="fa-solid fa-browser"></i> -->
+                <i class="fa-solid fa-code"></i>
+                <h2>Web-Designing</h2>
+                <p>
+                    A great web designer is someone that has a vast range of knowledge. They are not only able to come up with and implement a great design but also able to build a web page (using different design platforms and coding languages) and use the latest technologies to do so. And I am available for the same for you.</p>
+             <a href="https://www.w3schools.com/whatis/" target="_blank">Learn more</a>
+            </div>
+            <div>
+              
+
+                <i class="fa-solid fa-crop-simple"></i>
+
+                <h2>Graphic-Designing</h2>
+                <p>A good designer should always listen, be attentive and ask intelligent questions. Listening means the designer gains critical knowledge and it’s this that gives rise to truly effective design solutions.I have the tendency to design logos and Posters with attractive behaviour.
+                 </p>
+             <a href="https://www.youtube.com/watch?v=ZByhs9mDtDg&t=4s" target="_blank">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Content-Writer</h2>
+                <p>Great content writers are ferocious researchers, a quality brought about by a writer's inquisitive mind. They know that good writing is grounded in data and history, because these are things that add context and credibility to their work. I have that capability and I write for you for your feelings.
+                    </p>
+             <a href="https://www.yourquote.in/sneha-kumari-cnwh9/quotes" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg">
+                <div class="layer">
+                    <h3>Web Developmet Media </h3>
+                    <p>The site connects you to the talented 
+                        people around you from the world.Ask
+                         your query by clicking below link</p>
+                <a href="https://www.naukri.com/learning/articles/top-web-developer-interview-questions-answers/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg">
+                <div class="layer">
+                    <h3>Graphic Designing App</h3>
+                    <p>The app connects you to the app where you
+                         can crate your own design. you can download
+                          it by simple clicking below icon. </p>
+                <a href="https://www.canva.com/free/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work3.jpg">
+                <div class="layer">
+                    <h3>Write your feelings </h3>
+                    <p>The app connects you to the different 
+                        peoples
+                with whom you can share your thoughts
+                 and
+                feelings through your quotes. 
+                You can go through by login below link
+     </p>
+                <a href="https://www.yourquote.in/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+     <a href="https://www.youtube.com/watch?v=oYRda7UtuhA" class="btn">See more</a>   
+    </div>
+</div>
+
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+
+<p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100058833954134" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_._.sneha._._1/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sneha-kumari-06a36b201/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="sneharesume.pdf" target="_blank" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" href="https://mail.google.com/mail/u/0/#inbox?compose=new" required>
+                    <textarea type="Message" rows="8" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sneha. Made with <i class="fa-solid fa-heart"></i> by self learning</p>
+    </div>
+</div>
+    
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-content");
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+  var sidemeu=document.getElementsByI("sidemenu");
+  function openmenu(){
+    sidemeu.style.right="0";
+  }
+  function closemenu(){
+    sidemeu.style.right="-200px";
+  }
+</script>
+</body>
+</html>
